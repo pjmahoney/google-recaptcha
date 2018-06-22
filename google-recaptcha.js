@@ -1,4 +1,6 @@
 import { Polymer } from '@polymer/polymer/polymer-legacy.js';
+import { html } from '@polymer/polymer/polymer-element.js';
+
 
 import './iron-scroll-fit.js';
 window.onloadGrecaptchaCallback = function() {
@@ -12,7 +14,7 @@ window.onloadGrecaptchaCallback = function() {
 @demo demo/index.html
 */
 Polymer({
-  _template: `
+  _template: html`
     <style>
       :host {
         display: block;
