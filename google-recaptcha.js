@@ -1,6 +1,6 @@
 import { Polymer } from '@polymer/polymer/polymer-legacy.js';
 import { html } from '@polymer/polymer/polymer-element.js';
-
+import { dom } from '@polymer/polymer/lib/legacy/polymer.dom.js';
 
 import './iron-scroll-fit.js';
 window.onloadGrecaptchaCallback = function() {
@@ -435,12 +435,12 @@ Polymer({
     if (!inBodyDisabled) {
       if (!this.inBody && (forceInBody || this._hasShadowParent(this))) {
         // Append to body
-        Polymer.dom(document.body).appendChild(container);
+        dom(document.body).appendChild(container);
         this._setInBody(true);
       }
     } else if (this.inBody) {
       // Remove from body
-      Polymer.dom(this.root).appendChild(container);
+      dom(this.root).appendChild(container);
       container.resetFit();
       this._setInBody(false);
     }
