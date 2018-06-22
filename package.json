@@ -21,11 +21,11 @@
   "license": "MIT",
   "homepage": "https://github.com/Zecat/google-recaptcha",
   "dependencies": {
-    "@polymer/polymer": "^3.0.0-pre.1",
-    "@polymer/iron-form-element-behavior": "^3.0.0-pre.1",
-    "@polymer/iron-validatable-behavior": "^3.0.0-pre.1",
     "@polymer/iron-fit-behavior": "^3.0.0-pre.1",
-    "@polymer/iron-scroll-target-behavior": "^3.0.0-pre.1"
+    "@polymer/iron-form-element-behavior": "^3.0.0-pre.1",
+    "@polymer/iron-scroll-target-behavior": "^3.0.0-pre.19",
+    "@polymer/iron-validatable-behavior": "^3.0.0-pre.1",
+    "@polymer/polymer": "^3.0.0-pre.1"
   },
   "devDependencies": {}
 }
