@@ -1,3 +1,5 @@
+import { Polymer } from '@polymer/polymer/polymer-legacy.js';
+
 import './iron-scroll-fit.js';
 window.onloadGrecaptchaCallback = function() {
   this.dispatchEvent(new Event('grecaptcha-loaded', {bubbles: true, composed: true}));
