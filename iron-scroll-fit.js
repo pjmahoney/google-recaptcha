@@ -1,12 +1,14 @@
 import { Polymer } from '@polymer/polymer/polymer-legacy.js';
+import { IronScrollTargetBehavior } from '@polymer/iron-scroll-target-behavior';
+import { IronFitBehavior } from '@polymer/iron-fit-behavior';
 
 Polymer({
 
   is: 'iron-scroll-fit',
 
   behaviors: [
-    Polymer.IronFitBehavior,
-    Polymer.IronScrollTargetBehavior
+    IronFitBehavior,
+    IronScrollTargetBehavior
   ],
 
   _scrollHandler(e) {
