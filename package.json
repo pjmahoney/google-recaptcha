@@ -1,6 +1,5 @@
 {
   "name": "google-recaptcha",
-  "flat": true,
   "version": "1.0.0",
   "description": "Google recaptcha V2 and invisible (Polymer 1.9 - 2.x)",
   "contributors": [
